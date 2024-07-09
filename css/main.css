@@ -1,0 +1,118 @@
+/*<!--要記得放方框留白邊-->*/
+.all {
+    margin:0 auto;
+}
+
+.header {
+    height:50px;
+    /*background-color:purple;*/
+}
+
+.wrapper {
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    min-height:90%;
+    font: 16px 'Open Sans', sans-serif;
+    color: #222;
+    /*background-color:pink;*/
+}
+
+.sidebar {
+    width:300px;
+    margin:30px 0 auto;
+    position: fixed;
+    text-align:left;
+    /*background-color:gray;*/
+}
+
+.side {
+    padding: 10px 10px 50px 20px;
+    margin:5px auto;
+    text-align:left;
+    /*background-color:yellowgreen;*/
+}
+
+.main {
+    margin:0 auto;
+    flex: 1;
+    margin-left: 300px;
+    padding: 40px 10px 0px 20px;
+    text-align:left;
+    /*background-color:lightblue;*/
+}
+
+.footer {
+    height:30px;
+    padding: 10px 0 0 0;
+    margin:0 auto;
+    text-align:center;
+    font: 12px 'Open Sans', sans-serif;
+    color: #8D8D8D;
+    /*background-color:orange;*/
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: #0000CD;
+    
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+aText {
+    color: #000080;
+}
+
+aText:hover {
+    color: #0000CD;
+    border-bottom:1px solid #0000CD;
+}
+
+aText:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type:none;
+    margin:5px auto;
+}
+
+.img-circle {
+    width:100%;
+    margin:0 auto;
+    border-radius: 50%;
+}
+
+.img-lable {
+    width:7%;
+    margin:0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-family: Arial, Georgia, "Times New Roman", Times, Baskerville, serif;
+    text-align:center;
+
+}
+
+h2, h3, h4, h5, h6, .title {
+    margin: 0;
+    font-family: 'PT Serif', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+
+}
+
+
