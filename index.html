@@ -6,8 +6,11 @@
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <!-- main css -->
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/pc_main.css" media="screen and (min-width: 993px)">
+    <link rel="stylesheet" type="text/css" href="./css/main.css" media="screen and (min-width: 577px) and (max-width: 992px)">
+    <link rel="stylesheet" type="text/css" href="./css/mobile_main.css" media="screen and (max-width: 576px)">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
 
 
 </head>
@@ -16,41 +19,95 @@
 <body>
     
     <div class="all">
-        <div class="header"></div>
-
-        <div class="flex-container" >
-            
-            <div class="sidebar">
-                <img class="img-circle" src="images/selfImg.jpeg" alt="Logo">
-                <h1> Pei-Yun Jan</h1>
-                
-                <div class="side">
-                    <ul>
-                        <li>
-                            <a title="CV" href="images/CV.pdf"><img class="img-lable" src="images/cvImg.png" alt="Logo"> CV</a>
-                        </li>
-                        <li>
-                            <a title="GitHub" href="https://github.com/peiyunjan0807"><img class="img-lable" src="images/githubImg.png" alt="Logo"> GitHub</a>
-                        </li>
-                        <li>
-                            <a title="LinkedIn" href="https://www.linkedin.com/in/peiyunjan"><img class="img-lable" src="images/linkedinImg.png" alt="Logo"> LinkedIn</a>
-                        </li>
-                        <li>
-                            <a title="E-mail" href="mailto:peiyun.jan@email.ucr.edu"><img class="img-lable" src="images/mailImg.png" alt="Logo"> peiyun.jan@email.ucr.edu</a>
-                        </li>
-                        
-                    </ul>
+        <div class="header">
+            <div class="header-container-row">
+                <div class="header_logo">
+                    <!--<a title="CV" href="index.html"><img class="img-circle" src="images/selfImg.jpeg" alt="Logo" display: block> </a>-->
+                </div>
+                <div class="header_menu">
+                </div>
+                <div class="aside_logo">
+                    <a href="index.html"><img class="img-lable ex2" src="images/menu.png"></a>
                 </div>
             </div>
+        </div>
+        
+        <div class="aside">
+            
+            <div class="aside-container">
+                
+                <div class="aside-mobile-column">
+                <div class="aside_logo">
+                    <a href="index.html"><img class="img-lable ex2 at1" src="images/close.png"></a>
+                </div>
+                </div>
+                
+                <div class="asideText">
+                    <a title="CV" href="images/CV.pdf"><a_asideText> CV &nbsp</a_asideText></a>
+                </div>
+                <div class="asideText">
+                    <a title="GitHub" href="https://github.com/peiyunjan0807"><a_asideText> GITHUB </a_asideText></a>
+                </div>
+                <div class="asideText">
+                    <a title="LinkedIn" href="https://www.linkedin.com/in/peiyunjan"><a_asideText> LINKEDIN </a_asideText></a>
+                </div>
+                <div class="asideText">
+                    <a title="LinkedIn" href="mailto:peiyun.jan@email.ucr.edu"><a_asideText> EMAIL </a_asideText></a>
+                </div>
+                
+            </div>
+        
+        </div>
+
+        <div class="flex-container-row-mobileColumn" >
+            
+            <div class="flex-container-column" >
+                <div class="side">
+                    <img class="img-circle" src="images/selfImg.jpeg" alt="Logo" display: block>
+                </div>
+                <div class="side">
+                    <div class="sideName">
+                        <h1> Pei-Yun Jan</h1>
+                    </div>
+                    <div class="sideName2">
+                    <p> Master's Student in Computer Engineering at University of California, Riverside</p>
+                    </div>
+                </div>
+
+
+                <div class="side-mobile-row">
+                    <div class="sideText">
+                        <a title="CV" href="images/CV.pdf"><img class="img-lable ex1" src="images/cvImg.png"> CV &nbsp</a>
+                        
+                        <!--<a title="GitHub" href="https://github.com/peiyunjan0807"><img class="img-lable" src="images/githubImg.png" alt="Logo"> GitHub &nbsp</a>
+                        
+                        <a title="LinkedIn" href="https://www.linkedin.com/in/peiyunjan"><img class="img-lable" src="images/linkedinImg.png" alt="Logo"> LinkedIn &nbsp</a>
+                        
+                        <a title="E-mail" href="mailto:peiyun.jan@email.ucr.edu"><img class="img-lable" src="images/mailImg.png" alt="Logo"> peiyun.jan@email.ucr.edu </a>-->
+                    </div>
+                    <div class="sideText">
+                        <a title="GitHub" href="https://github.com/peiyunjan0807"><img class="img-lable ex1" src="images/githubImg.png" alt="Logo"> GitHub &nbsp</a>
+                    </div>
+                    <div class="sideText">
+                        <a title="LinkedIn" href="https://www.linkedin.com/in/peiyunjan"><img class="img-lable ex1" src="images/linkedinImg.png" alt="Logo"> LinkedIn &nbsp</a>
+                    </div>
+                    <div class="sideText">
+                        <a title="E-mail" href="mailto:peiyun.jan@email.ucr.edu"><img class="img-lable ex1" src="images/mailImg.png" alt="Logo"> peiyun.jan@email.ucr.edu </a>
+                    </div>
+                </div>
+                
+            </div>
+            
 
             <div class="main">
             <!--以下是main內容-->
                 <h1></h1>
+                <p><h2>About Me</h2></p>
                 <p>
-                My name is Pei-Yun Jan, and I am an incoming master's student in Computer Engineering at the <a href="https://www.ucr.edu"   ><aText> University of California, Riverside (UCR)</aText></a>. I hold a bachelor's degree in Computer Science and Engineering from <a href="https://www.ntou.edu.tw"><aText> National Taiwan Ocean University (NTOU)</aText></a>.
+                Hi, I'm Pei-Yun Jan a master's student in Computer Engineering at the <a href="https://www.ucr.edu"   ><aText>University of California, Riverside (UCR)</aText></a>. I hold a bachelor's degree in Computer Science and Engineering from <a href="https://www.ntou.edu.tw"><aText>National Taiwan Ocean University (NTOU)</aText></a>.
                 </p>
                 <p>
-                I am passionate about Artificial Intelligence, big data analysis, and hardware and software design. I am proficient in C, C++, Python, and Java, and continuously seek to expand my knowledge in various CS-related techniques and technologies. I am actively seeking internship opportunities in software engineering, data engineering, and cloud computing.
+                I am passionate about software development, embedded systems, and hardware–software co-design. I am proficient in C, C++, Python, and Java, and I continuously seek to expand my knowledge across computer science techniques and technologies. I am actively seeking full-time opportunities as a Software Engineer, Embedded Software Engineer, or Backend Engineer.
                 </p>
                 <!--
                 <p>Feel free to connect with me via LinkedIn or email.</p>
@@ -65,7 +122,8 @@
         </div>
         
     </div>
-    
+    <script src="./css/header.js"></script>
 </body>
 </html>
+
 
